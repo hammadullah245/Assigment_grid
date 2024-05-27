@@ -1,0 +1,90 @@
+.container{
+    display: grid;
+    margin: 30px 0 0 150px;
+    width: 900px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    grid-template-rows: 50px 70px 80px  40px;
+    grid-gap: 5px;
+    color: aliceblue;
+}
+.one{
+    text-align: center;
+    background-color: rgb(164, 4, 4);
+    grid-column: 1/3;
+}
+.two{
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    grid-column: 3/6;
+}
+.three{
+    text-align: center;
+    background-color: rgb(19, 212, 54);
+    grid-row: 2/6;
+    height: 200px;
+}
+.four{
+    text-align: center;
+    background-color: rgb(22, 51, 245);
+    grid-column: 2/5;
+}
+.five{
+    display: grid;
+    /* background-color: rgb(176, 21, 21); */
+    grid-template-columns: 100px;
+    grid-template-rows: 40px 30px  40px 40px;
+    grid-gap: 2px;
+}
+.five_1{
+    text-align: center;
+    background-color: rgb(221, 37, 37);
+}
+.five_2{
+    text-align: center;
+
+}
+.five_3{
+    text-align: center;
+    background-color: rgb(221, 37, 37);
+}
+.five_4{
+    text-align: center;
+    background-color: rgba(180, 45, 45, 0.219);
+
+}
+.six{
+    grid-column: 2/5;
+    display: grid;
+    background-color: rgba(180, 45, 45, 0.219);
+    grid-template-columns: 80px 70px 80px 80px ;
+    grid-template-rows: 40px 50px;
+}
+.six_1{
+    text-align: center;
+}
+.six_2{
+    background-color: rgb(255, 249, 249);
+    grid-column: 2/4;
+}
+.six_3{
+    text-align: center;
+}
+.six_4{
+    text-align: center;
+    background-color: rgb(255, 249, 249);
+}
+.six_5{
+    text-align: center;
+    width: 70px;
+}
+.six_6{
+    text-align: center;
+    background-color: rgb(255, 249, 249);
+    grid-column: 3/5;
+
+}
+.eight{
+    text-align: center;
+    background-color:rgb(218, 164, 26);
+    grid-column: 2/6;
+}
